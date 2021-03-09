@@ -1,0 +1,29 @@
+  
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Containers */
+/* Navbar */
+span {
+    font-size: 5rem;
+}
+/* Jumbotron */
+/* Block dividers */
+/* Buttons */
+/* Alert */
+
+.site-wide-alert {
+    color: #000000;
+    background-color: #f1a293;
+    border-color: #B76E60;
+    padding: 0;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+/* Page Headers */
+/* Quotes */
+/* Features */
+footer {
+    background-color: black;
+}
