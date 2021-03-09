@@ -3,27 +3,56 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 /* Containers */
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
 /* Navbar */
 span {
     font-size: 5rem;
 }
+
 /* Jumbotron */
+img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
 /* Block dividers */
 /* Buttons */
 /* Alert */
 
-.site-wide-alert {
+.safety {
     color: #000000;
-    background-color: #f1a293;
+    background-color: #85d9e1;
     border-color: #B76E60;
     padding: 0;
-    margin-bottom: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: 0;
+    height: 3rem;
 }
 /* Page Headers */
 /* Quotes */
 /* Features */
+.features-box {
+    padding-bottom: 5%;
+}
+/* Features */
+.uppercase {
+    text-transform: uppercase;
+}
 footer {
-    background-color: black;
+    text-align: center;
+}
+#footer-details div {
+    padding-top: 1em;
+}
+
+.list-inline-item {
+    font-size: 2.5em;
 }
