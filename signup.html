@@ -35,7 +35,7 @@
                         <a class="nav-link" href="#">Online Training</a>
                     </li>
                     <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="signup.html">Sign In / Sign Up</a>
+                        <a class="nav-link" href="/login">Sign In / Sign Up</a>
                     </li>
             </ul>
         </div>
@@ -51,73 +51,88 @@
         </div>
     </div> 
 <!-- /alert -->
-<!-- jumbotron -->
-    <div class="container-fluid ">
-            <img src="assets/images/popfit-background.jpg" class="img-fluid img-responsive" alt="Responsive image">
-    </div>
-<!-- /jumbotron -->
-<!-- about us -->
-    <div class="container " id="aboutus-section">
-        <section class="features">
-            <h3 class="text-center">START YOUR 7 DAY FREE TRIAL TODAY!</h3>
-            <p class="text-center">
-                POPfit Signature Dance Fitness Class offers you a high energy workout set to 
-                music with easy to follow moves. Designed to work your whole body with a combination 
-                of cardio, strength training and stretch, you’ll enjoy the workouts as much as you’ll 
-                enjoy the post-workout glow. 
-            </p>
-            <hr>
-            <p class="text-center">
-                Other classes include Barre, Ass & Abs, HIIT & Stretch.
-                All levels are welcome - if you are new to POPfit, we encourage you to go at your own pace 
-                to begin with. Low impact and modifications are available. Your body, your workout.
-            </p>
-            <hr>
-            <p class="text-center">
-                POPfit's Founder Steph
-                "I am really passionate about creating workouts that you can enjoy as well as being highly 
-                effective. As a dancer I want to enjoy moving my body but I also want to lose weight, tone up 
-                and stay really strong and fit. Not only that but I believe in exercise for your mental wellbeing. 
-                Moving to music feels good, it's brilliant for your mood".
-            </p>
-            <div class="text-center">
-                <button class="btn btn-lg btn-light">Start Today</button>
+<!-- Form -->
+    <div class="container-md">
+    <h1>Sign up</h1>
+    <form>
+        <div class="form-group row">
+            <label for="inputEmail" class="col-sm-3 col-form-label" required>Email *</label>
+            <div class="col-sm-9">
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
-            <hr>
-        </section>
+        </div> 
+        <div class="form-group row">
+            <label for="inputPassword1" class="col-sm-3 col-form-label">Password *</label>
+            <div class="col-sm-9">
+                <input type="password" class="form-control" id="inputPassword1">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="fname" class="col-sm-3 col-form-label">First Name *</label>
+            <div class="col-sm-9">
+                <input class="form-control" id="fname" type="text" aria-describedby="firstname">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="lname" class="col-sm-3 col-form-label">Last Name *</label>
+            <div class="col-sm-9">
+                <input class="form-control" id="lname" type="text" aria-describedby="lastname">
+            </div>
+        </div>  
+        <div class="form-group row">
+            <label for="postcode" class="col-sm-3 col-form-label">Postcode *</label>
+            <div class="col-sm-9">
+                <input class="form-control" id="postcode" type="text" aria-describedby="postcode">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="city" class="col-sm-3 col-form-label">City *</label>
+            <div class="col-sm-9">
+                <input class="form-control" id="city" type="text" aria-describedby="city">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="dob" class="col-sm-3 col-form-label">Date of Birth *</label>
+            <div class="col-sm-2">
+                <input class="form-control" type="number" placeholder="Day - DD" id="day" min="1" max="31">
+            </div>
+            <div class="col-sm-5">
+                <select class="custom-select" id="month" placeholder="Month" required>
+                    <option selected disabled value="">Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <input class="form-control" type="number" placeholder="Year - YYYY" id="year" min="1900" max="2021">
+            </div>
+        </div>            
+        <div class="form-group row">
+            <div class="container text-center">
+                <button type="submit" class="btn btn-light" value="Submit">Sign up</button>
+            </div>
+        </div> 
+    </form>
     </div>
+ 
+
+<!-- /form -->
+<!-- about us -->
+
 <!-- /about us --> 
 <!-- features -->
-        <div class="container features-box">
-            <section class="features">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img src="https://images.pexels.com/photos/3768722/pexels-photo-3768722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href="#" class="card-link">Classes</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img src="https://images.pexels.com/photos/863926/pexels-photo-863926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href="#" class="card-link">Videos</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 d-md-none d-lg-block col-lg-4">
-                        <div class="card">
-                            <img src="https://images.pexels.com/photos/868757/pexels-photo-868757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <a href="#" class="card-link">Prices</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
+
 <!-- /features --> 
 <!-- footer -->
     <footer class="container-fluid bg-light">

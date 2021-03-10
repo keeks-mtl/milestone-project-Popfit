@@ -1,18 +1,26 @@
-  
 body {
     font-family: 'Roboto', sans-serif;
 }
+h1 {
+    text-align: center;
+    color: #7c7c7d;
+}
+
 /* Containers */
+
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
 }
+
 /* Navbar */
+
 span {
     font-size: 5rem;
 }
 
 /* Jumbotron */
+
 img {
     width: 100%;
     height: auto;
@@ -24,50 +32,85 @@ img {
 /* Block dividers */
 /* Buttons */
 /* Alert */
+
 .btn-light {
     background-color: #f1a293;
     border-color: #f1a293;
 }
 .safety {
-    color: #000000;
+    color: #7c7c7d;
     background-color: #85d9e1;
-    border-color: #B76E60;
     padding: .75% 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border: 1px solid transparent;
-    border-radius: 0;
-    height: 3rem;
+    height: 3.5rem;
     text-align: center;
+    font-weight: 700;
+}
 
+.row {
+    width: 100%;
+    margin: 0;
 }
-.safe-text {
-    text-align: center;
-}
+
+
 /* Page Headers */
 /* Quotes */
+
 #aboutus-section {
     margin-top: 2%;
 }
+
 /* Features */
+
 .features-box {
     padding-bottom: 5%;
 }
-/* Features */
+
+/* Footer */
+
 .uppercase {
     text-transform: uppercase;
 }
+
 footer {
     text-align: center;
 }
+
 i {
     color: black;
 }
+
 #footer-details div {
     padding-top: 1em;
 }
+
 .list-inline-item {
     font-size: 2.5em;
     /* padding-right: 50px;
     padding-left: 50px; */
+}
+/* form */
+
+form .row {
+    margin: 2% 0;
+}
+
+label {
+    text-align: right;
+}
+
+/* pricing */
+.pricing-box{
+    padding-bottom: 3%;
+    min-height: 65vh;
+}
+
+.pricing-box a{
+    margin-bottom: 3%;
+}
+
+/* classes */
+.classes-box{
+    padding-bottom: 3%;
 }
