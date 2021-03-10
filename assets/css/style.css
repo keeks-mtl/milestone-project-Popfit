@@ -114,3 +114,10 @@ label {
 .classes-box{
     padding-bottom: 3%;
 }
+
+.label-signup {
+    font-size: 1em;
+    display: inline;
+    text-align: right;
+    float: left;
+}

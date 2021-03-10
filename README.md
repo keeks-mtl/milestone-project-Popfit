@@ -10,6 +10,10 @@ This site is designed for people looking for gym classes. The people who visit a
 - as a local gym user, I want videos, so I can work out. 
 - As someone who's signed up for a class, I want to find the gym, so I can attend the class.
 - As an information seeker, i'm looking for general information about the gym, so i can make a decision. 
+- gym members want to know more about gym procedures
+- potential members who want to know about classes.
+- potential members who want to know about prices
+- site owner attract new members.
 
 
 Share links to any wireframes, mockups, diagrams etc. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
@@ -27,7 +31,10 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- *gym location
+- password validation
+- send form details
+- aria label everything
 
 ## Technologies Used
 
@@ -35,7 +42,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Testing
 
@@ -73,9 +80,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The intro text on the home page was copied from [Popfit Website](https://popfitmethod.com)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from [Unsplash](https://unsplash.com/) & [Pexels](https://www.pexels.com/)
 
 ### Acknowledgements
 
