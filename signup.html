@@ -12,6 +12,7 @@
 </head>
 <body>
 
+<div class="page-container">
 <!--navbar-->
    <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-center">
         <a class="navbar-brand" href="index.html">
@@ -51,54 +52,55 @@
         </div>
     </div> 
 <!-- /alert -->
+<div class="page-content">
 <!-- Form -->
     <div class="container-md">
     <h1>Sign up</h1>
-    <form action="signup.html" method="get">
+    <form class="signup-form" action="signup.html" method="get">
         <div class="form-group row">
             <label for="inputEmail" class="col-sm-3 col-form-label">Email *</label>
             <div class="col-sm-9">
-                <input type="email" class="form-control" id="inputEmail" aria-labelledby="inputEmaillabel" required>
+                <input type="email" class="form-control" id="inputEmail" aria-label="inputEmaillabel" required>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
         </div> 
         <div class="form-group row">
             <label for="inputPassword1" class="col-sm-3 col-form-label">Password *</label>
             <div class="col-sm-9">
-                <input type="password" class="form-control" id="inputPassword1" aria-labelledby="inputPassword1label" required>
+                <input type="password" class="form-control" id="inputPassword1" aria-label="inputPassword1label" required>
             </div>
         </div>
         <div class="form-group row">
             <label for="inputPassword2" class="col-sm-3 col-form-label">Confirm Password *</label>
             <div class="col-sm-9">
-                <input type="password" class="form-control" id="inputPassword2" aria-labelledby="inputPassword2label" required>
+                <input type="password" class="form-control" id="inputPassword2" aria-label="inputPassword2label" required>
             </div>
         </div>
         <div class="form-group row">
             <label for="fname" class="col-sm-3 col-form-label">First Name *</label>
             <div class="col-sm-9">
-                <input class="form-control" id="fname" type="text" aria-labelledby="fnamelabel" required>
+                <input class="form-control" id="fname" type="text" aria-label="fnamelabel" required>
             </div>
         </div>
         <div class="form-group row">
             <label for="lname" class="col-sm-3 col-form-label">Last Name *</label>
             <div class="col-sm-9">
-                <input class="form-control" id="lname" type="text" aria-labelledby="lnamelabel" required>
+                <input class="form-control" id="lname" type="text" aria-label="lnamelabel" required>
             </div>
         </div>  
         <div class="form-group row">
             <label for="postcode" class="col-sm-3 col-form-label">Postcode *</label>
             <div class="col-sm-9">
-                <input class="form-control" id="postcode" type="text" aria-labelledby="postcodelabel" required>
+                <input class="form-control" id="postcode" type="text" aria-label="postcodelabel" required>
             </div>
         </div>
         <div class="form-group row">
             <label for="city" class="col-sm-3 col-form-label">City *</label>
             <div class="col-sm-9">
-                <input class="form-control" id="city" type="text" aria-labelledby="citylabel" required>
+                <input class="form-control" id="city" type="text" aria-label="citylabel" required>
             </div>
         </div>
-        <fieldset class="form-group row">
+        <!-- <fieldset class="form-group row">
             <legend class="col-3 d-flex label-signup">Date of Birth</legend>
             <div class="col-sm-2">
                 <label for="day" class="hidden col-form-label"></label>
@@ -126,15 +128,16 @@
                 <label for="year" class="hidden col-form-label"></label>
                 <input class="form-control" type="number" placeholder="Year - YYYY" id="year" min="1900" max="2021" required>
             </div>
-        </fieldset>           
+        </fieldset>            -->
         
         <div class="form-group row">
-            <label for="dob" class="col-sm-3 col-form-label">Date of Birth *</label>
+            <label for="day-dob" class="col-sm-3 col-form-label">Date of Birth *</label>
             <div class="col-sm-2">
                 <input class="form-control" type="number" placeholder="Day" id="day-dob" min="1" max="31" required>
             </div>
             <div class="col-sm-5">
-                <select class="custom-select" id="month-dob" required>
+                <label for="month-dob" class="sr-only"></label>
+                <select class="custom-select" id="month-dob" aria-label="month of birth" required>
                     <option selected disabled value="">Month</option>
                     <option>January</option>
                     <option>February</option>
@@ -151,7 +154,8 @@
                 </select>
             </div>
             <div class="col-sm-2">
-                <input class="form-control" type="number" placeholder="Year - YYYY" id="year-dob" min="1900" max="2021" required>
+                <label for="year-dob" class="sr-only"></label>
+                <input class="form-control" type="number" placeholder="Year - YYYY" id="year-dob" min="1900" max="2021" aria-label="year of birth" required>
             </div>
         </div>            
         <div class="form-group row">
@@ -170,6 +174,7 @@
 <!-- features -->
 
 <!-- /features --> 
+</div>
 <!-- footer -->
     <footer class="container-fluid bg-light">
         <div id="footer-details" class="row">
@@ -188,13 +193,22 @@
             <div class="col-sm-4">
                 <ul class="list-inline d-flex justify-content-around">
                     <li class="list-inline-item ">
-                        <a href="https://www.facebook.com" target="_blank" alt="facebook link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <i aria-hidden="true" class="fab fa-facebook-f"></i>
+                            <span class="sr-only">link to facebook</span>
+                        </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.instagram.com" target="_blank" alt="instagram link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <i aria-hidden= "true" class="fab fa-instagram"></i>
+                            <span class="sr-only">link to instagram</span>
+                        </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.youtube.com" target="_blank" alt="youtube link"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <i aria-hidden= "true" class="fab fa-youtube"></i>
+                            <span class="sr-only">link to youtube</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -204,6 +218,7 @@
             </div>   
         </div>
         </footer>
+</div>
 <!-- /footer --> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>

@@ -6,11 +6,30 @@ h1 {
     color: #7c7c7d;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* Containers */
 
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
 }
 
 /* Navbar */
@@ -31,13 +50,14 @@ img {
 
 /* Block dividers */
 /* Buttons */
-/* Alert */
 
 .btn-light {
     background-color: #f1a293;
     border-color: #fadad4;
     border-radius: 12px;
 }
+
+/* Alert */
 /* #85d9e1, #f1a293; */
 .navbar-light {
     background-image: linear-gradient(to bottom, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa, #f8f9fa, #f9f9fa, #f9fafb, #fafafb, #fbfbfc, #fdfcfd, #fefefe, #ffffff);
@@ -55,14 +75,9 @@ img {
     /* font-weight: 700; */
 }
 /* #7c7c7d, rgba(124,124,125,0.2) */
-.row {
-    width: 100%;
-    margin: 0;
-}
-
 
 /* Page Headers */
-/* Quotes */
+/* About us */
 
 #aboutus-section {
     margin-top: 2%;
@@ -76,9 +91,6 @@ img {
 
 /* Footer */
 
-.uppercase {
-    text-transform: uppercase;
-}
 
 footer {
     text-align: center;
@@ -135,3 +147,13 @@ label {
 /* .modal-radios {
     text-align: center;
 } */
+
+/* signup */
+
+/* media queries*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 575px) {
+    .signup-form label {
+        text-align: left;
+    }
+}

@@ -78,6 +78,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
+- [Accessibleweb](https://accessibleweb.com/tips-tools-tutorials/font-awesome/ )
+    - How to make Fontawesome icons accesible.
+- [selbekk](https://www.selbekk.io/blog/2019/08/how-to-make-your-footer-stick-to-the-bottom-of-your-page/)
+    - How to get footer to remain at bottom of page when not a lot of content. 
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 - The intro text on the home page was copied from [Popfit Website](https://popfitmethod.com)
