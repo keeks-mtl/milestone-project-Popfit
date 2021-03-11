@@ -26,13 +26,13 @@
                         <a class="nav-link" href="pricing.html">Pricing</a>
                     </li>
                     <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="classes.html">Classes</a>
-                    </li>
+                        <a class="nav-link" href="classes.html">Schedule</a>
+                    </li>-
                 <li class="nav-item">
                         <a class="nav-link d-none d-md-block" href="index.html"><span>Popfit</span></a>
                     </li>
                 <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a class="nav-link" href="onlinetraining.html">Online Training</a>
+                        <a class="nav-link" href="onlinetraining.html">Classes</a>
                     </li>
                     <li class="nav-item d-flex align-items-center justify-content-center">
                         <a class="nav-link" href="signup.html">Sign In / Sign Up</a>
@@ -56,30 +56,119 @@
         <div class="row justify-content-around">
             <div class="col-md-5">
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1601568870191-8c417f7e0077?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80" class="card-img-top" alt="Woman stretching at home">
+                    <img src="/assets/images/homeyoga.jpg" class="card-img-top" alt="Woman stretching at home">
+                    <!-- Photo by <a href="https://unsplash.com/@mathildelangevin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mathilde Langevin</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+                    <div class="card-header uppercase text-center">
+                        Online Pricing
+                    </div>
                     <div class="card-body text-center">
-                        <a href="#" class="btn btn-light">Online Pricing</a>
                         <p>7 Day Free Trial</p>
                         <p>Monthly Memberships $20/Month</p>
                         <p>Annual Memberships $10/Month</p>
+                        <a href="onlinetraining.html" class="btn btn-light">See Classes</a>
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#buyNowModal">Buy Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-5">
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1586790167861-6e87cdff91b9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80" class="card-img-top" alt="A woman working out in a gym studio">
+                    <img src="assets/images/woman-mirror.jpg" class="card-img-top" alt="A woman working out in a gym studio">
+                    
+   <!-- Photo by <a href="https://unsplash.com/@yulissatagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yulissa Tagle</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   -->
+                    <div class="card-header uppercase text-center">
+                        Studio Pricing
+                    </div>
                     <div class="card-body text-center">
-                        <a href="#" class="btn btn-light">Studio Pricing</a>
                         <p>Single Class $9</p>
                         <p>5 Classes $40</p>
                         <p>10 Classes $70</p>
-                        <p>Annual Membership $84</p>
+                        <a href="classes.html" class="btn btn-light">See Schedule</a>
+                        <a href="#" class="btn btn-light" data-toggle="modal" data-target="#buyNowModal">Buy Now</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 <!-- /pricing sections -->
+<!-- buy now modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="buyNowModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Make your Popfit purchase!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="get">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
+                        <div class="container-fluid modal-radios">
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Online subscription</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" required>
+                                        <label class="form-check-label" for="exampleRadios1">
+                                            7 day free trial
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            Monthly subscription
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            Annual subscription
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <p>Studio Vouchers</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                        <label class="form-check-label" for="exampleRadios1">
+                                            Single Class $9
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            5 Classes $40
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            10 Classes $70
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="/signup.html">If not already a member, sign up now!</a>
+                        </div>
+                        <button type="submit" class="btn btn-light">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- /buy now modal-->
 <!-- footer -->
     <footer class="container-fluid bg-light">
         <div id="footer-details" class="row">
