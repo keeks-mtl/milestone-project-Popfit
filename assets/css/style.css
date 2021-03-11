@@ -144,11 +144,20 @@ label {
     background-image: url(../images/watercolor-background.jpg);
 } */
 
-/* .modal-radios {
+ .modal-radios {
     text-align: center;
-} */
+}
 
 /* signup */
+/* Buy now modal */
+.modal-dialog p {
+    text-align: center;
+}
+
+.modal-dialog h6 {
+    text-align: center;
+    text-decoration: underline;
+}
 
 /* media queries*/
 /* Small devices (portrait tablets and large phones, 600px and up) */
