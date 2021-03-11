@@ -131,7 +131,8 @@ label {
 
 /* classes */
 .classes-box{
-    padding-bottom: 3%;
+    /* padding-bottom: 3%; */
+    padding: 0 3% 3% 3%;
 }
 
 .label-signup {
@@ -149,6 +150,7 @@ label {
 }
 
 /* signup */
+
 /* Buy now modal */
 .modal-dialog p {
     text-align: center;
